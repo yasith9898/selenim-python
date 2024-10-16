@@ -1,0 +1,16 @@
+1. to install Aluure python dependecnies run belwo command
+pip install allure-behave
+
+2. Run Behave test case with allure (allure-results is the folder which will be created by this comand)
+ifyou want to change it give a differnt name
+
+behave -f allure_behave.formatter:AllureFormatter -o allure-results
+
+3.RUn the blwo command to run repsorting server in allure (allure-results is the folder name)
+
+allure serve allure-results
+
+
+
+
+
